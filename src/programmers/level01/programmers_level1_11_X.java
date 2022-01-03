@@ -1,4 +1,4 @@
-package programmers;
+package programmers.level01;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -11,7 +11,7 @@ import java.util.Collections;
  *
  */
 
-public class programmers_level1_11 {
+public class programmers_level1_11_X {
     public static void main(String[] args) {
         int [] arr ={1,1,2,3,4,5,6,7,8};
 

@@ -1,4 +1,4 @@
-package programmers;
+package programmers.level01;
 
 /**
  * 프로그래머스 1단계 두 정수 사이의 합
