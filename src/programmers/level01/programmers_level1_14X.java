@@ -11,7 +11,7 @@ package programmers.level01;
  * 첫 번째 글자는 0번째 인덱스로 보아 짝수번째 알파벳으로 처리해야 합니다.
  */
 
-public class programmers_level1_14 {
+public class programmers_level1_14X {
     public static void main(String[] args) {
 
         String s = "try hello world";
