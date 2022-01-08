@@ -15,22 +15,24 @@ public class programmers_level1_14X {
     public static void main(String[] args) {
 
         String s = "try hello world";
-        String [] s_arr = s.split(" ");
+
         String result = "";
-        for(String i :s_arr){
-            System.out.println(i);
-            for (int j =0; j<i.length(); j++){
-                if (j % 2 == 0){
-                    char c = Character.toUpperCase(i.charAt(j));
-                    result += c;
+        int num =0;
+        for (int i =0; i<s.length(); i++){
+            if((int)s.charAt(i) == 32){  //공백
+                result += " ";
+                num = 0;
+            }else{
+                if (num % 2 == 0){
+                    result += Character.toUpperCase(s.charAt(i));
                 } else {
-                    result += i.charAt(j);
+                    result += Character.toLowerCase(s.charAt(i));
                 }
+                num ++;
             }
-            result += " ";
         }
 
-        System.out.println(result.substring(0, result.length() -1));
+        System.out.println(result);
     }
 }
 
